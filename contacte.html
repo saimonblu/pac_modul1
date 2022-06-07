@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel=StyleSheet href="style.css" type="text/css">
+    <link rel=styleSheet href="style.css" type="text/css">
 </head>
 
 <body>
@@ -13,12 +13,17 @@
         <li><a href="contacte.html"><strong>Contacte</strong></a></li>
     </ul>
     <h2 class="titol_contacte">El meu portfoli</h2>
-    <img src="assets/img/contacte.jpg" alt="portada" class="portada">
-    <h2 class="titol2_contacte">Parlem!</h2>
 
-    <section class="formulari">
+    <section>
+        <img src="assets/img/contacte.jpg" alt="portada" class="img_contacte">
+        <h2 class="titol2_contacte">
+            Parlem!
+        </h2>
+    </section>
+
+    <section class="formulari text_formulari">
         <p>Escriu el teu nom</p>
-        <input type="text" placeholder="Escriu el teu nom">
+        <input type="text" placeholder="Escriu el teu nom" class="">
 
         <p>Correu electrònic</p>
         <input type="text" placeholder="Escriu el teu correu">
@@ -27,9 +32,11 @@
         <textarea rows="4" cols="21"></textarea>
 
         <br>
-
-        <button class="boto_form">Enviar</button>
     </section>
+
+    <div style="text-align: center;">
+        <button class="boto_form">Enviar</button>
+    </div>
 
     <section class="footer">
         <img src="assets/img/twitter.png" alt="Cervesa" width="300" height="300">
