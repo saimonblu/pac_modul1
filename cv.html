@@ -3,13 +3,6 @@
 
 <head>
     <link rel=StyleSheet href="style.css" type="text/css">
-    <style>
-        table,
-        th,
-        td {
-            border: 1px solid black;
-        }
-    </style>
 </head>
 
 <body>
@@ -19,72 +12,95 @@
         <li><a href="cv.html"><strong>CV</strong></a></li>
         <li><a href="contacte.html"><strong>Contacte</strong></a></li>
     </ul>
-    <h1>Currículum Vitae</h1>
-    <h2><a href="#dades_personals">Dades personals</a></h2>
-    <h2><a href="#idiomes">Idiomes</a></h2>
-    <h2><a href="#estudis">Estudis</a></h2>
-    <h2><a href="#laboral">Laboral</a></h2>
-    <hr>
-    <h3 id="dades_personals">Informació personal</h3>
-    <h4><strong>Nom:</strong> Simon Montoya Garcia</h4>
-    <h4><strong>Direcció:</strong> C/Manel desvalls, 15</h4>
-    <h4>08261 Cardona (Barcelona)</h4>
-    <hr>
-    <h3 id="idiomes">Idiomes</h3>
-    <table>
-        <tr>
-            <th>Idioma</th>
-            <th>Nivell baix</th>
-            <th>Nivell mig</th>
-            <th>Nivell alt</th>
-            <th>Nivell natiu</th>
-        </tr>
-        <tr>
-            <td>Català</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <td>Castellà</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <td>Anglès</td>
-            <td></td>
-            <td></td>
-            <td>X</td>
-            <td></td>
-        </tr>
-    </table>
-    <hr>
-    <h3 id="estudis">Informació acadèmica</h3>
-    <ul>
-        <li><strong>Batxillerat tecnològic</strong></li>
-        <div>Institut Joan Brudieu</div>
-    </ul>
-    <ul>
-        <li><strong>Enginyeria Informàtica de Gestió</strong></li>
-        <div>Universitat Rovira i Virgili (URV)</div>
-    </ul>
-    <ul>
-        <li><strong>Màster en Multimèdia</strong></li>
-        <div>Escoles Universitàries Gimbernat i Tomàs Cerdà (EUG)</div>
-    </ul>
-    <hr>
-    <h3 id="laboral">Informació laboral</h3>
-    <ul>
-        <li><strong>Suport IT a grup CREVER</strong><i>(Tarragona, 2009 - 2011)</i></li>
-        <div>Tasques de suport IT al grup d'investigació CREVER de la URV. Suport als usuaris, desenvolupament, instal·lació i manteniment de software, gestió del servidor intern i desenvolupament de pàgines web.</div>
-    </ul>
-    <ul>
-        <li><strong>Desenvolupament backend a G.Software</strong><i>(Reus, 2011-2013)</i></li>
-        <div>Desenvolupament de software tipus ERP enfocat a negocis d'hosteleria utilitzant un framework propi.</div>
-    </ul>
+    <h2 class="titol_cv">Currículum Vitae</h2>
+
+    <section class="menu_cv">
+        <img src="assets/img/cv.jpg" alt="portada" class="img_cv">
+        <h2><a class="links_cv" href="#dades_personals">Dades personals</a></h2>
+        <h2><a class="links_cv" href="#idiomes">Idiomes</a></h2>
+        <h2><a class="links_cv" href="#estudis">Estudis</a></h2>
+        <h2><a class="links_cv" href="#laboral">Laboral</a></h2>
+    </section>
+
+    <hr class="hr">
+
+    <section class="info_personal" id="dades_personals">
+        <img src="assets/img/profile.png" alt="Logo" class="img_profile">
+        <h3>Informació personal</h3>
+        <h4><strong>Nom:</strong> Simon Montoya Garcia</h4>
+        <h4><strong>Direcció:</strong> C/Manel desvalls, 15</h4>
+        <h4>08261 Cardona (Barcelona)</h4>
+    </section>
+
+    <hr class="hr">
+
+    <section class="taula_cv" id="idiomes">
+        <h3 class="titol_idiomes">Idiomes</h3>
+        <table>
+            <tr>
+                <th>Idioma</th>
+                <th>Nivell baix</th>
+                <th>Nivell mig</th>
+                <th>Nivell alt</th>
+                <th>Nivell natiu</th>
+            </tr>
+            <tr>
+                <td>Català</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>Castellà</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>Anglès</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+            </tr>
+        </table>
+    </section>
+
+    <hr class="hr">
+
+    <section class="estudis">
+        <h3 id="estudis" class="titols_cv">Informació acadèmica</h3>
+        <ul class="formacions_cv">
+            <li class="centres_cv"><strong>Batxillerat tecnològic</strong></li>
+            <div>Institut Joan Brudieu</div>
+        </ul>
+        <ul class="formacions_cv">
+            <li class="centres_cv"><strong>Enginyeria Informàtica de Gestió</strong></li>
+            <div>Universitat Rovira i Virgili (URV)</div>
+        </ul>
+        <ul class="formacions_cv">
+            <li class="centres_cv"><strong>Màster en Multimèdia</strong></li>
+            <div>Escoles Universitàries Gimbernat i Tomàs Cerdà (EUG)</div>
+        </ul>
+    </section>
+
+    <hr class="hr">
+
+    <section class="laboral">
+        <h3 id="laboral" class="titol_laboral">Informació laboral</h3>
+        <ul class="empresa">
+            <li class="centres"><strong>Suport IT a grup CREVER</strong><i>(Tarragona, 2009 - 2011)</i></li><br>
+            <div>Tasques de suport IT al grup d'investigació CREVER de la URV. Suport als usuaris, desenvolupament, instal·lació i manteniment de software, gestió del servidor intern i desenvolupament de pàgines web.</div>
+        </ul>
+        <br>
+        <ul class="empresa">
+            <li class="centres"><strong>Desenvolupament backend a G.Software</strong><i>(Reus, 2011-2013)</i></li><br>
+            <div>Desenvolupament de software tipus ERP enfocat a negocis d'hosteleria utilitzant un framework propi.</div>
+        </ul>
+    </section>
+
 </body>
 
 </html>

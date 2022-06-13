@@ -1,7 +1,9 @@
 /* GENERAL */
 
-.body {
-    max-width: 100%;
+body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+    color: #333;
 }
 
 
@@ -148,4 +150,167 @@ textarea {
 .footer img {
     max-width: 30px;
     max-height: 30px;
+}
+
+
+/* CURRICULUM */
+
+.img_cv {
+    width: 100%;
+    max-height: 514px;
+    padding-bottom: 1%;
+}
+
+.titol_cv {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px #333;
+    font-family: sans-serif;
+}
+
+.menu_cv h2 {
+    display: inline;
+    position: relative;
+    margin: 3%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.links_cv {
+    text-decoration: none;
+    color: #333;
+}
+
+.menu_cv h2:hover {
+    cursor: pointer;
+    text-shadow: 2px 4px 8px rgb(185, 181, 181);
+}
+
+.hr {
+    height: 1px;
+    border: none;
+    margin-top: 20px;
+    background: #333;
+    background: radial-gradient(circle, rgba(5, 48, 49, 1) 0%, rgba(5, 48, 49, 0) 76%);
+}
+
+.info_personal {
+    display: block;
+    text-align: center;
+    padding: 3%;
+    font-family: sans-serif;
+}
+
+.img_profile {
+    height: 150px;
+    opacity: 0.5;
+}
+
+.taula_cv {
+    font-family: sans-serif;
+    padding: 2%;
+    color: #333;
+}
+
+.titol_idiomes {
+    position: relative;
+    left: 25%;
+}
+
+table {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 1%;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 1%;
+}
+
+tr:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.estudis {
+    color: #333;
+    font-family: sans-serif;
+}
+
+.titols_cv {
+    position: relative;
+    left: 26%;
+}
+
+.formacions_cv {
+    background-color: white;
+    margin-left: 26%;
+}
+
+.centres_cv {
+    margin-right: 35%;
+}
+
+.laboral {
+    color: #333;
+    font-family: sans-serif;
+    max-width: 1000px;
+}
+
+.titol_laboral {
+    position: relative;
+    left: 35%;
+}
+
+.centres {
+    margin-right: 35%;
+}
+
+ul.empresa {
+    background-color: white;
+    margin-left: 35%;
+}
+
+.img_index {
+    width: 100%;
+    max-height: 514px;
+}
+
+.titol_central {
+    text-align: center;
+}
+
+.part_1 {
+    display: inline-block;
+}
+
+.paragraf_1 {
+    float: left;
+    max-width: 72%;
+    text-align: justify;
+}
+
+.img_intro {
+    float: right;
+    margin-top: -12%;
+}
+
+.projectes p {
+    position: relative;
+    display: inline-block;
+    background-color: yellow;
 }
