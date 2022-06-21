@@ -1,456 +1,783 @@
 /* GENERAL */
 
-body {
-    overflow-x: hidden;
-    font-family: sans-serif;
-    color: #333;
-}
-
-
-/* MENU */
-
-ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 12px;
-}
-
-li a:hover {
-    background-color: rgb(17, 17, 17);
-}
-
-.img_menu {
-    width: 35px;
-    height: 35px;
-    margin-left: 25px;
-    margin-top: 5px;
-}
-
-.titol1 {
-    font-family: sans-serif;
-    position: absolute;
-    margin-top: 150px;
-    left: 0;
-    right: 0;
-    text-align: center;
-    color: white;
-    font-size: 50px;
-}
-
-
-/* FORMULARI */
-
-.img_contacte {
-    width: 100%;
-    height: auto;
-}
-
-.titol_contacte {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    color: white;
-    text-shadow: 2px 2px #333;
-    font-family: sans-serif;
-}
-
-.titol2_contacte {
-    text-align: center;
-    font-size: 30px;
-    color: #333;
-    font-family: sans-serif;
-}
-
-.formulari {
-    text-align: left;
-    margin-left: 35%;
-}
-
-.text_formulari p {
-    font-family: sans-serif;
-    text-align: left;
-    left: 25%;
-    color: #333;
-}
-
-input[type=text] {
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border-width: 1px;
-}
-
-::placeholder {
-    color: rgb(161, 159, 159);
-}
-
-textarea {
-    width: 50%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border-radius: 4px;
-    resize: none;
-    border-radius: 5px;
-    border-width: 1px;
-}
-
-.boto_form {
-    margin-top: 20px;
-    border-width: 1px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    padding-right: 7%;
-    padding-left: 7%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-family: sans-serif;
-    text-align: center;
-    transition-duration: 0.4s;
-}
-
-.boto_form:hover {
-    cursor: pointer;
-    background-color: #333;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-.footer {
-    background-color: #333;
-    text-align: center;
-    padding: 3px 20px;
-    margin-top: 2%;
-    margin-bottom: 0%;
-}
-
-.footer img {
-    max-width: 30px;
-    max-height: 30px;
-}
-
-
-/* CURRICULUM */
-
-.img_cv {
-    width: 100%;
-    max-height: 514px;
-    padding-bottom: 1%;
-}
-
-.titol_cv {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    color: white;
-    text-shadow: 2px 2px #333;
-    font-family: sans-serif;
-}
-
-.menu_cv h2 {
-    display: inline;
-    position: relative;
-    margin: 3%;
-    left: 24%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    font-family: sans-serif;
-}
-
-.links_cv {
-    text-decoration: none;
-    color: #333;
-}
-
-.menu_cv h2:hover {
-    cursor: pointer;
-    text-shadow: 2px 4px 8px rgb(185, 181, 181);
-}
-
-.hr {
-    height: 1px;
-    border: none;
-    margin-top: 20px;
-    background: #333;
-    background: radial-gradient(circle, rgba(5, 48, 49, 1) 0%, rgba(5, 48, 49, 0) 76%);
-}
-
-.info_personal {
-    display: block;
-    text-align: center;
-    padding: 3%;
-    font-family: sans-serif;
-}
-
-.img_profile {
-    height: 150px;
-    opacity: 0.5;
-}
-
-.taula_cv {
-    font-family: sans-serif;
-    padding: 2%;
-    color: #333;
-}
-
-.titol_idiomes {
-    position: relative;
-    left: 25%;
-}
-
-table {
-    width: 50%;
-    position: relative;
-    left: 25%;
-    border-collapse: collapse;
-}
-
-th {
-    background-color: #333;
-    color: white;
-    padding: 1%;
-}
-
-td {
-    border: 1px solid black;
-    text-align: center;
-    padding: 1%;
-}
-
-tr:hover {
-    background-color: rgb(224, 224, 224);
-}
-
-.estudis {
-    color: #333;
-    font-family: sans-serif;
-}
-
-.titols_cv {
-    position: relative;
-    left: 26%;
-}
-
-.formacions_cv {
-    background-color: white;
-    margin-left: 26%;
-}
-
-.centres_cv {
-    margin-right: 35%;
-}
-
-.laboral {
-    color: #333;
-    font-family: sans-serif;
-    max-width: 1000px;
-}
-
-.titol_laboral {
-    position: relative;
-    left: 35%;
-}
-
-.centres {
-    margin-right: 35%;
-}
-
-ul.empresa {
-    background-color: white;
-    margin-left: 35%;
-}
-
-
-/* INICI */
-
-.img_index {
-    width: 100%;
-    max-height: 514px;
-}
-
-.titol_central {
-    text-align: center;
-}
-
-.part_1 {
-    display: inline-block;
-}
-
-.paragraf_1 {
-    float: left;
-    max-width: 72%;
-    text-align: justify;
-}
-
-.img_intro {
-    float: right;
-    margin-top: -12%;
-}
-
-.projectes {
-    display: block;
-    width: 100%;
-}
-
-.card {
-    border: 1px solid #333;
-    border-radius: 7px;
-    float: left;
-    margin: 20px;
-    width: 300px;
-    text-align: center;
-}
-
-.card>img {
-    width: 100%;
-    margin: 0px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.card>p {
-    text-align: left;
-    margin-left: 10px;
-}
-
-.projectes .card:first-child {
-    margin-left: 190px;
-}
-
-.projectes .card:nth-child(3n) {
-    margin-right: 150px;
-}
 
-.boto_inici {
-    margin-top: 10px;
-    border-width: 1px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    padding-right: 7%;
-    padding-left: 7%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-family: sans-serif;
-    text-align: center;
-    transition-duration: 0.4s;
-}
-
-.boto_inici:hover {
-    cursor: pointer;
-    background-color: #333;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-.experiencia {
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-
-/* GRÀFICS */
-
-.grafics {
-    border-radius: 7px;
-    float: left;
-    padding-left: 100px;
-    margin-left: 35px;
-    width: 20%;
-}
-
-.grafics>h4 {
-    margin-top: -75px;
-    font-size: 25px;
-}
-
-svg {
-    transform: rotate(-90deg);
-}
-
-.percent {
-    stroke-dasharray: 100;
-    stroke-dashoffset: calc(100 - var(--val));
-}
-
-.sixty {
-    --val: 60;
-}
-
-.eighty {
-    --val: 80;
-}
-
-.ninety {
-    --val: 90;
-}
-
-
-/* AFICIONS */
-
-.aficions {
-    width: 100%;
-    text-align: center;
-}
-
-.buttonCard {
-    background-color: rgb(194, 194, 194);
-    border-radius: 7px;
-    float: left;
-    margin: 35px;
-    text-align: left;
-    width: 350px;
-    padding: 10px;
-}
-
-.buttonCard>p {
-    margin-left: 7%;
-}
-
-.buttonCard>img {
-    max-height: 50px;
-    max-width: 50px;
-    float: right;
-    margin-top: -50px;
-}
-
-
-/* SOCIAL */
-
-.social {
-    float: left;
-    background-color: #333;
-    width: 100%;
-    text-align: center;
-}
-
-.social>img {
-    margin: 10px;
-    max-width: 35px;
-}
+/* ESCRIPTORI */
+
+@media only screen and (min-width: 1365px) {
+    body {
+        overflow-x: hidden;
+        font-family: sans-serif;
+        color: #333;
+    }
+    /* MENU */
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    li {
+        float: right;
+    }
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 15px 20px;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+    li a:hover {
+        background-color: rgb(17, 17, 17);
+    }
+    .img_menu {
+        width: 35px;
+        height: 35px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .titol1 {
+        font-family: sans-serif;
+        position: absolute;
+        margin-top: 150px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+    /* FORMULARI */
+    .img_contacte {
+        width: 100%;
+        height: auto;
+    }
+    .titol_contacte {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: white;
+        text-shadow: 2px 2px #333;
+        font-family: sans-serif;
+    }
+    .titol2_contacte {
+        text-align: center;
+        font-size: 30px;
+        color: #333;
+        font-family: sans-serif;
+    }
+    .formulari {
+        text-align: left;
+        margin-left: 35%;
+    }
+    .text_formulari p {
+        font-family: sans-serif;
+        text-align: left;
+        left: 25%;
+        color: #333;
+    }
+    input[type=text] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-width: 1px;
+    }
+     ::placeholder {
+        color: rgb(161, 159, 159);
+    }
+    textarea {
+        width: 50%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        resize: none;
+        border-radius: 5px;
+        border-width: 1px;
+    }
+    .boto_form {
+        margin-top: 20px;
+        border-width: 1px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        padding-right: 7%;
+        padding-left: 7%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-family: sans-serif;
+        text-align: center;
+        transition-duration: 0.4s;
+    }
+    .boto_form:hover {
+        cursor: pointer;
+        background-color: #333;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+    .footer {
+        background-color: #333;
+        text-align: center;
+        padding: 3px 20px;
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+    .footer img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    /* CURRICULUM */
+    .img_cv {
+        width: 100%;
+        max-height: 514px;
+        padding-bottom: 1%;
+    }
+    .titol_cv {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: white;
+        text-shadow: 2px 2px #333;
+        font-family: sans-serif;
+    }
+    .menu_cv h2 {
+        display: inline;
+        position: relative;
+        margin: 3%;
+        left: 24%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .links_cv {
+        text-decoration: none;
+        color: #333;
+    }
+    .menu_cv h2:hover {
+        cursor: pointer;
+        text-shadow: 2px 4px 8px rgb(185, 181, 181);
+    }
+    .hr {
+        height: 1px;
+        border: none;
+        margin-top: 20px;
+        background: #333;
+        background: radial-gradient(circle, rgba(5, 48, 49, 1) 0%, rgba(5, 48, 49, 0) 76%);
+    }
+    .info_personal {
+        display: block;
+        text-align: center;
+        padding: 3%;
+        font-family: sans-serif;
+    }
+    .img_profile {
+        height: 150px;
+        opacity: 0.5;
+    }
+    .taula_cv {
+        font-family: sans-serif;
+        padding: 2%;
+        color: #333;
+    }
+    .titol_idiomes {
+        position: relative;
+        left: 25%;
+    }
+    table {
+        width: 50%;
+        position: relative;
+        left: 25%;
+        border-collapse: collapse;
+    }
+    th {
+        background-color: #333;
+        color: white;
+        padding: 1%;
+    }
+    td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 1%;
+    }
+    tr:hover {
+        background-color: rgb(224, 224, 224);
+    }
+    .estudis {
+        color: #333;
+        font-family: sans-serif;
+    }
+    .titols_cv {
+        position: relative;
+        left: 26%;
+    }
+    .formacions_cv {
+        background-color: white;
+        margin-left: 26%;
+    }
+    .centres_cv {
+        margin-right: 35%;
+    }
+    .laboral {
+        color: #333;
+        font-family: sans-serif;
+    }
+    .titol_laboral {
+        position: relative;
+        left: 35%;
+    }
+    .centres {
+        margin-right: 35%;
+    }
+    ul.empresa {
+        background-color: white;
+        margin-left: 35%;
+    }
+    .empresa>li {
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .empresa>div {
+        margin-top: 20px;
+        float: left;
+        padding-left: 5%;
+        text-align: justify;
+        max-width: 50%;
+    }
+    /* INICI */
+    .img_index {
+        width: 100%;
+        max-height: 514px;
+    }
+    .titol_central {
+        text-align: center;
+    }
+    .part_1 {
+        display: inline-block;
+    }
+    .paragraf_1 {
+        float: left;
+        max-width: 72%;
+        text-align: justify;
+    }
+    .img_intro {
+        float: right;
+        margin-top: -12%;
+    }
+    .projectes {
+        display: block;
+        width: 100%;
+    }
+    .card {
+        border: 1px solid #333;
+        border-radius: 7px;
+        float: left;
+        margin: 20px;
+        width: 300px;
+        text-align: center;
+    }
+    .card>img {
+        width: 100%;
+        margin: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .card>p {
+        text-align: left;
+        margin-left: 10px;
+    }
+    .projectes .card:first-child {
+        margin-left: 190px;
+    }
+    .projectes .card:nth-child(3n) {
+        margin-right: 150px;
+    }
+    .boto_inici {
+        margin-top: 10px;
+        border-width: 1px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        padding-right: 7%;
+        padding-left: 7%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-family: sans-serif;
+        text-align: center;
+        transition-duration: 0.4s;
+    }
+    .boto_inici:hover {
+        cursor: pointer;
+        background-color: #333;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+    .experiencia {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    /* GRÀFICS */
+    .grafics {
+        border-radius: 7px;
+        float: left;
+        padding-left: 100px;
+        margin-left: 35px;
+        width: 20%;
+    }
+    .grafics>h4 {
+        margin-top: -75px;
+        font-size: 25px;
+    }
+    svg {
+        transform: rotate(-90deg);
+    }
+    .percent {
+        stroke-dasharray: 100;
+        stroke-dashoffset: calc(100 - var(--val));
+    }
+    .sixty {
+        --val: 60;
+    }
+    .eighty {
+        --val: 80;
+    }
+    .ninety {
+        --val: 90;
+    }
+    /* AFICIONS */
+    .aficions {
+        width: 100%;
+        text-align: center;
+    }
+    .buttonCard {
+        background-color: rgb(194, 194, 194);
+        border-radius: 7px;
+        float: left;
+        margin: 35px;
+        text-align: left;
+        width: 350px;
+        padding: 10px;
+    }
+    .buttonCard>p {
+        margin-left: 7%;
+    }
+    .buttonCard>img {
+        max-height: 50px;
+        max-width: 50px;
+        float: right;
+        margin-top: -50px;
+    }
+    /* SOCIAL */
+    .social {
+        float: left;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+    }
+    .social>img {
+        margin: 10px;
+        max-width: 35px;
+    }
+}
+
+
+/* TAULETA VERTICAL */
+
+@media only screen and (min-width: 768px) {
+    body {
+        overflow-x: hidden;
+        font-family: sans-serif;
+        color: #333;
+    }
+    /* MENU */
+    ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    li {
+        float: right;
+    }
+    li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 15px 20px;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 12px;
+    }
+    li a:hover {
+        background-color: rgb(17, 17, 17);
+    }
+    .img_menu {
+        width: 35px;
+        height: 35px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .titol1 {
+        font-family: sans-serif;
+        position: absolute;
+        margin-top: 150px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+    /* FORMULARI */
+    .img_contacte {
+        width: 100%;
+        height: auto;
+    }
+    .titol_contacte {
+        position: absolute;
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: white;
+        text-shadow: 2px 2px #333;
+        font-family: sans-serif;
+    }
+    .titol2_contacte {
+        text-align: center;
+        font-size: 30px;
+        color: #333;
+        font-family: sans-serif;
+    }
+    .formulari {
+        text-align: left;
+        margin-left: 35%;
+    }
+    .text_formulari p {
+        font-family: sans-serif;
+        text-align: left;
+        left: 25%;
+        color: #333;
+    }
+    input[type=text] {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-width: 1px;
+    }
+     ::placeholder {
+        color: rgb(161, 159, 159);
+    }
+    textarea {
+        width: 50%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        resize: none;
+        border-radius: 5px;
+        border-width: 1px;
+    }
+    .boto_form {
+        margin-top: 20px;
+        border-width: 1px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        padding-right: 7%;
+        padding-left: 7%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-family: sans-serif;
+        text-align: center;
+        transition-duration: 0.4s;
+    }
+    .boto_form:hover {
+        cursor: pointer;
+        background-color: #333;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+    .footer {
+        background-color: #333;
+        text-align: center;
+        padding: 3px 20px;
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+    .footer img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    /* CURRICULUM */
+    .img_cv {
+        width: 100%;
+        max-height: 514px;
+        padding-bottom: 1%;
+    }
+    .titol_cv {
+        position: absolute;
+        top: 32%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: white;
+        text-shadow: 2px 2px #333;
+        font-family: sans-serif;
+    }
+    .menu_cv h2 {
+        display: inline;
+        position: relative;
+        margin: 3%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .links_cv {
+        text-decoration: none;
+        color: #333;
+    }
+    .menu_cv h2:hover {
+        cursor: pointer;
+        text-shadow: 2px 4px 8px rgb(185, 181, 181);
+    }
+    .hr {
+        height: 1px;
+        border: none;
+        margin-top: 20px;
+        background: #333;
+        background: radial-gradient(circle, rgba(5, 48, 49, 1) 0%, rgba(5, 48, 49, 0) 76%);
+    }
+    .info_personal {
+        display: block;
+        text-align: center;
+        padding: 3%;
+        font-family: sans-serif;
+    }
+    .img_profile {
+        height: 150px;
+        opacity: 0.5;
+    }
+    .taula_cv {
+        font-family: sans-serif;
+        padding: 2%;
+        color: #333;
+    }
+    .titol_idiomes {
+        position: relative;
+        left: 10%;
+    }
+    table {
+        width: 60%;
+        position: relative;
+        left: 19%;
+        border-collapse: collapse;
+    }
+    th {
+        background-color: #333;
+        color: white;
+        padding: 1%;
+    }
+    td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 1%;
+    }
+    tr:hover {
+        background-color: rgb(224, 224, 224);
+    }
+    .estudis {
+        color: #333;
+        font-family: sans-serif;
+    }
+    .titols_cv {
+        position: relative;
+        left: 10%;
+    }
+    .formacions_cv {
+        background-color: white;
+        margin-left: 10%;
+    }
+    .centres_cv {
+        margin-right: 10%;
+        padding-bottom: 20px;
+    }
+    .laboral {
+        color: #333;
+        font-family: sans-serif;
+    }
+    .titol_laboral {
+        position: relative;
+        left: 10%;
+    }
+    .centres {
+        margin-right: 10%;
+    }
+    ul.empresa {
+        background-color: white;
+        margin-left: 10%;
+        padding-bottom: 20px;
+    }
+    .empresa>div {
+        margin-top: 20px;
+        left: 1%;
+        padding-right: 55px;
+        text-align: justify;
+    }
+    /* INICI */
+    .img_index {
+        width: 100%;
+        max-height: 514px;
+        padding-top: -250px
+    }
+    .titol_central {
+        text-align: center;
+    }
+    .part_1 {
+        display: inline-block;
+    }
+    .paragraf_1 {
+        float: left;
+        max-width: 72%;
+        text-align: justify;
+    }
+    .img_intro {
+        float: right;
+        margin-top: -12%;
+    }
+    .projectes {
+        display: block;
+        width: 100%;
+    }
+    .card {
+        border: 1px solid #333;
+        border-radius: 7px;
+        float: left;
+        margin: 20px;
+        width: 300px;
+        text-align: center;
+    }
+    .card>img {
+        width: 100%;
+        margin: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .card>p {
+        text-align: left;
+        margin-left: 10px;
+    }
+    .projectes .card:first-child {
+        margin-left: 190px;
+    }
+    .projectes .card:nth-child(3n) {
+        margin-right: 150px;
+    }
+    .boto_inici {
+        margin-top: 10px;
+        border-width: 1px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        padding-right: 7%;
+        padding-left: 7%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-family: sans-serif;
+        text-align: center;
+        transition-duration: 0.4s;
+    }
+    .boto_inici:hover {
+        cursor: pointer;
+        background-color: #333;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+    .experiencia {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    /* GRÀFICS */
+    .grafics {
+        border-radius: 7px;
+        float: left;
+        padding-left: 100px;
+        margin-left: 35px;
+        width: 20%;
+    }
+    .grafics>h4 {
+        margin-top: -75px;
+        font-size: 25px;
+    }
+    svg {
+        transform: rotate(-90deg);
+    }
+    .percent {
+        stroke-dasharray: 100;
+        stroke-dashoffset: calc(100 - var(--val));
+    }
+    .sixty {
+        --val: 60;
+    }
+    .eighty {
+        --val: 80;
+    }
+    .ninety {
+        --val: 90;
+    }
+    /* AFICIONS */
+    .aficions {
+        width: 100%;
+        text-align: center;
+    }
+    .buttonCard {
+        background-color: rgb(194, 194, 194);
+        border-radius: 7px;
+        float: left;
+        margin: 35px;
+        text-align: left;
+        width: 350px;
+        padding: 10px;
+    }
+    .buttonCard>p {
+        margin-left: 7%;
+    }
+    .buttonCard>img {
+        max-height: 50px;
+        max-width: 50px;
+        float: right;
+        margin-top: -50px;
+    }
+    /* SOCIAL */
+    .social {
+        float: left;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+    }
+    .social>img {
+        margin: 10px;
+        max-width: 35px;
+    }
+}
+
+
+/* MOVIL */
+
+@media only screen and (min-width: 600px) {}
